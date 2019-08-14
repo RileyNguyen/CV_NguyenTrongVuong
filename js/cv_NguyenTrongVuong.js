@@ -25,3 +25,9 @@ items.forEach((item, index) => {
 // $(".about-me").click(function() {
 //   $(this).toggleClass("actived");
 // });
+$('.vn').click(function () {
+  $('.wrapper').hide();
+})
+$('.en').click(function () {
+  window.location.replace("../en_cv_NguyenTrongVuong.html");
+})
